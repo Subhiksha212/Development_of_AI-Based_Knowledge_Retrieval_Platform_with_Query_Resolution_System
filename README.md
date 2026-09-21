@@ -1,4 +1,4 @@
-# Development of AI-Based Knowledge Retrieval Platform with Query Resolution System
+# AI-Based Knowledge Retrieval Platform with Query Resolution System
 
 An AI-powered Retrieval-Augmented Generation (RAG) platform that enables users to upload knowledge-base documents and query them using natural language. The ingestion pipeline supports native text extraction and OCR for scanned, handwritten, and image-based content. The project combines a multi-agent LangGraph workflow with persistent PostgreSQL conversation memory, clarification handling, browser-based voice input/output, response transparency, authenticated user workspaces, and direct LLM handling for general-knowledge/conversational questions. Milestone 4 adds query analytics, domain-agnostic common query-theme detection, knowledge-gap detection, authenticated user-specific knowledge bases, user-scoped ChromaDB retrieval, and dedicated Analytics and Knowledge Gap dashboards.
 
@@ -96,7 +96,8 @@ AI-Based Knowledge Retrieval Platform with Query Resolution System/
 │   │   │   ├── 0f628c51b660_initial_schema.py
 │   │   │   ├── 7c91f9e3a2b4_milestone4_analytics_and_knowledge_gaps.py
 │   │   │   ├── 5a7a6c2b7c8f_add_user_specific_knowledge_base.py
-│   │   │   └── e9b7e767c397_add_user_id_to_knowledge_gaps.py
+│   │   │   ├── e9b7e767c397_add_user_id_to_knowledge_gaps.py
+│   │   │   └── a4c8d2e1f907_add_user_active_status.py
 │   │   ├── env.py
 │   │   ├── script.py.mako
 │   │   └── README
@@ -135,7 +136,6 @@ AI-Based Knowledge Retrieval Platform with Query Resolution System/
 │   │   │   └── auth.py
 │   │   ├── models/
 │   │   │   ├── request_models.py
-│   │   │   ├── response_models.py
 │   │   │   ├── auth_models.py
 │   │   │   └── knowledge_base_schemas.py
 │   │   ├── rag/
